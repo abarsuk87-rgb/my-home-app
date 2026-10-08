@@ -1,0 +1,15 @@
+{
+  "short_name": "Мій дім",
+  "name": "Мій дім — Розумний асистент",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/25/25694.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "display": "standalone"
+}
