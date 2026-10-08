@@ -20,7 +20,6 @@ TUYA_ACCESS_KEY = os.getenv("TUYA_ACCESS_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 tuya = TuyaOpenAPI(TUYA_ENDPOINT, TUYA_ACCESS_ID, TUYA_ACCESS_KEY)
-tuya.connect()
 
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
