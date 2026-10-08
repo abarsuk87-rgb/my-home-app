@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 from openai import OpenAI
-from tuya_iot import TuyaOpenAPI, TuyaEnv
+from tuya_iot import TuyaOpenAPI, https://openapi.tuyaeu.com
 from apscheduler.schedulers.background import BackgroundScheduler
 from contextlib import asynccontextmanager
 
