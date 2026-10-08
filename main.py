@@ -14,7 +14,7 @@ from contextlib import asynccontextmanager
 # ==========================================
 # КОНФІГУРАЦІЯ
 # ==========================================
-TUYA_ENDPOINT = "https://openapi.tuyau.com"  # Для Європи
+TUYA_ENDPOINT = "https://openapi.tuyaeu.com"  # Для Європи
 TUYA_ACCESS_ID = os.getenv("TUYA_ACCESS_ID", "")
 TUYA_ACCESS_KEY = os.getenv("TUYA_ACCESS_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
